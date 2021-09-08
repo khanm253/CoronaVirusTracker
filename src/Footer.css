@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.footer .footer__note{
+    font-size: x-small;
+}
+
+.footer .footer__email{
+    font-size: x-small;
+}

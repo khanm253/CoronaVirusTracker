@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+
+.App{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+body{
+ background-color: #f5f6fa;
+}
+
+.app__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.app__stats{
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__left{
+  flex: 0.9;
+}
+
+.app__left .title{
+  margin-right: auto;
+}
+
+@media (max-width: 990px) {
+  .App{
+    flex-direction: column;
+  }
+}
+
+.new__cases{
+  color: green;
+  text-align: center;
+}
+
+.new__cases__label{
+  text-align: center;
+}
+
+.app__stats {
+  border: 4px green solid;
+  padding: 15px;
+  border-radius: 25px;
+
+  animation: blink 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink { 50% { border-color:#f5f6fa ; }  }
