@@ -1,3 +1,10 @@
+# Corona Virus Tracker
+
+#### Designed and implemented a global Cornona virus cases tracker, containing real-time data on the number of cases, deaths and recoveries recorded worldwide and #### specific to each country. Includes a responsive World Map, presenting the relative impact of the virus across countries.
+#### Technologies: React, Firebase Hosting, Disease.sh API, CSS, Material UI
+
+### Check out Project : https://covid-tracker-16b3f.web.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
